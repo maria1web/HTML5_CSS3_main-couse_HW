@@ -412,13 +412,13 @@ body {
 
 .but-buy:hover {
     background-color: white;
-    outline: none;
+    border: 2px solid crimson;
     color: crimson;
 }
 
 .but-buy:active {
     background-color: lightblue;
-    outline: none;
+    border: 2px solid darkslategray;
     color: darkslategray;
 }
 
@@ -469,7 +469,6 @@ body {
 }
 
 .form-input:focus {
-    outline: none;
     color: #445162;
     font-size: 16px;
     font-weight: 400;
@@ -497,7 +496,6 @@ body {
 }
 
 .form-msg:focus {
-    outline: none;
     color: #445162;
     font-size: 16px;
     font-weight: 400;
@@ -527,14 +525,12 @@ body {
 }
 .form-send:hover {
     box-sizing: border-box;
-    background-color: mediumslateblue;
-    outline: none;
+    background-color: teal;
     color: white;
 }
 
 .form-send:active {
     background-color: lightblue;
-    outline: none;
     color: darkslategray;
 }
 
