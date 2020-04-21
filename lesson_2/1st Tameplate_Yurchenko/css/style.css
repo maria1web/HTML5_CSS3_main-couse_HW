@@ -155,6 +155,10 @@ body {
     box-sizing: border-box;
 }
 
+.dignity-item:last-child {
+    margin: 0;
+}
+
 .dignity-item-title {
     padding-left: 35px;
     display: block;
@@ -211,7 +215,9 @@ body {
     display: block;
     max-height: 146px;
     width: 359px;
-    padding-left: 215px;
+    float: right;
+   /*padding-left: 215px;*/
+
 }
 
 .screen-title {
@@ -317,11 +323,11 @@ body {
 }
 
 .div-rev .rev-block:nth-child(2) {
-    margin: 24px 0 0 0px;
+    margin: 24px 0 0 0;
 }
 
 .div-rev1 .rev-block:nth-child(2) {
-    margin: 24px 0 0 0px;
+    margin: 24px 0 0 0;
 }
 
 /* -----BUY IT NOW----*/
@@ -406,8 +412,14 @@ body {
 
 .but-buy:hover {
     background-color: white;
-    border: 2px solid crimson;
+    outline: none;
     color: crimson;
+}
+
+.but-buy:active {
+    background-color: lightblue;
+    outline: none;
+    color: darkslategray;
 }
 
 /* -----FOOTER----*/
@@ -441,6 +453,7 @@ body {
 .form-input {
     width: 500px;
     height: 40px;
+    outline: none;
     background-color: #fff;
     box-sizing: border-box;
     border-radius: 5px;
@@ -455,9 +468,19 @@ body {
     padding-left: 10px;
 }
 
+.form-input:focus {
+    outline: none;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 10px;
+}
+
 .form-msg {
     width: 500px;
     height: 170px;
+    outline: none;
     background-color: #fff;
     box-sizing: border-box;
     border-radius: 5px;
@@ -473,12 +496,24 @@ body {
     font-family: Arial;
 }
 
+.form-msg:focus {
+    outline: none;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: Arial;
+}
+
 .form-send {
     width: 140px;
     height: 40px;
     background-color: #fff;
     border-radius: 5px;
     box-sizing: border-box;
+    outline: none;
     color: #445161;
     font-size: 16px;
     font-weight: bold;
@@ -492,8 +527,15 @@ body {
 }
 .form-send:hover {
     box-sizing: border-box;
-    background-color: cadetblue;
+    background-color: mediumslateblue;
+    outline: none;
     color: white;
+}
+
+.form-send:active {
+    background-color: lightblue;
+    outline: none;
+    color: darkslategray;
 }
 
 .contact-ways{
