@@ -216,7 +216,7 @@ body {
     max-height: 146px;
     width: 359px;
     float: right;
-   /*padding-left: 215px;*/
+    /*padding-left: 215px;*/
 
 }
 
@@ -332,10 +332,11 @@ body {
 
 /* -----BUY IT NOW----*/
 
-.buy-it-now{
+.buy-it-now {
     width: 100%;
 
 }
+
 .tariff-cards {
     display: flex;
     flex-flow: row wrap;
@@ -351,6 +352,7 @@ body {
     color: white;
     margin: 0 45px 0 0;
 }
+
 .price-card:last-child {
     margin: 0;
 }
@@ -380,12 +382,14 @@ body {
     text-align: center;
     padding: 18px 0 18px 0;
 }
-.benefit-list{
+
+.benefit-list {
     box-sizing: border-box;
     list-style: decimal inside none;
     padding: 20px 38px 0 20px;
     margin: 0;
 }
+
 .benefit-item {
     width: 100%;
     color: #fff;
@@ -425,17 +429,17 @@ body {
 /* -----FOOTER----*/
 /*-----CONTACTS-----*/
 
-.contacts{
+.contacts {
     width: 100%;
     background-color: #445161;
 }
 
-.contact-us{
+.contact-us {
     display: flex;
     flex-direction: row;
 }
 
-.contacts-title{
+.contacts-title {
     margin: 0 0 25px 0;
     color: #fff;
     font-size: 30px;
@@ -443,66 +447,83 @@ body {
     line-height: 25px;
     text-align: center;
 }
+
 .contact-form {
     padding-left: 200px;
+    box-sizing: border-box;
 }
 
-.textus {
+.textUs {
     width: 500px;
 }
+
 .form-input {
     width: 500px;
     height: 40px;
     outline: none;
     background-color: #fff;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 0 0 10px;
     box-sizing: border-box;
     border-radius: 5px;
     margin-bottom: 20px;
-    padding: 0;
+
 }
 
 .form-input::placeholder {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    padding-left: 10px;
+}
+
+.form-input[type=text] {
+    text-transform: capitalize;
+}
+
+.form-input:hover {
+    background-color: lightblue;
 }
 
 .form-input:focus {
-    color: #445162;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    padding-left: 10px;
+    border: 3px solid seagreen;
+    background-color: lightblue;
+}
+
+.form-input:focus::placeholder {
+    color: lightblue;
 }
 
 .form-msg {
     width: 500px;
     height: 170px;
+    padding: 10px 0 0 10px;
     outline: none;
     background-color: #fff;
-    box-sizing: border-box;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-.form-msg::placeholder {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    padding-left: 10px;
-    padding-top: 10px;
     font-family: Arial;
-}
-
-.form-msg:focus {
     color: #445162;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    padding-left: 10px;
-    padding-top: 10px;
-    font-family: Arial;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.form-msg:hover {
+    background-color: lightblue;
+}
+
+.form-msg:focus {
+    background-color: lightblue;
+    border: 3px solid seagreen;
+}
+
+.form-msg:focus::placeholder {
+    color: lightblue;
 }
 
 .form-send {
@@ -523,9 +544,10 @@ body {
     padding: 0;
 
 }
+
 .form-send:hover {
     box-sizing: border-box;
-    background-color: teal;
+    background-color: seagreen;
     color: white;
 }
 
@@ -534,7 +556,7 @@ body {
     color: darkslategray;
 }
 
-.contact-ways{
+.contact-ways {
     margin-left: 76px;
 }
 
@@ -598,11 +620,11 @@ body {
 
 /*-----COPYRIGHT-----*/
 
-.copyright{
+.copyright {
     width: 100%;
 }
 
-.rights{
+.rights {
     color: #445162;
     font-size: 14px;
     font-weight: 400;
