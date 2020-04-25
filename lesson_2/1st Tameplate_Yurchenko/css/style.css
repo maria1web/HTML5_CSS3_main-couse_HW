@@ -557,10 +557,12 @@ body {
 }
 
 .contact-ways {
-    margin-left: 76px;
+    box-sizing: border-box;
+
 }
 
 .connection {
+    margin-left: 76px;
     display: flex;
     flex-direction: column;
 }
@@ -617,6 +619,41 @@ body {
     top: -7px;
     left: -32px;
 }
+
+.social {
+    width: 100%;
+    margin-left: -33px;
+    display: flex;
+}
+
+.social-item {
+    display: block;
+    width: 51px;
+    height: 42px;
+    background-image: url(../img/social_buttons.png);
+    margin-right: 11px;
+}
+
+.social-item:nth-child(1) {
+    background-position: 0 0;
+}
+
+.social-item:nth-child(2) {
+    background-position: -49px 0;
+}
+
+.social-item:nth-child(3) {
+    background-position: -99px 0;
+}
+
+.social-item:nth-child(4) {
+    background-position: -149px 0;
+}
+
+.social-item:nth-child(5) {
+    background-position: -196px 0;
+}
+
 
 /*-----COPYRIGHT-----*/
 
