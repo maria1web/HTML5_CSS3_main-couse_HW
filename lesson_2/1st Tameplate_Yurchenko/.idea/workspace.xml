@@ -25,6 +25,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -46,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586607560256</updated>
       <workItem from="1586607563988" duration="59669000" />
+      <workItem from="1586801140032" duration="47237000" />
     </task>
     <servers />
   </component>
@@ -65,14 +67,14 @@
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state x="392" y="259" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.31.1280.689@0.31.1280.689" timestamp="1586668366176" />
-    <state x="276" y="31" key="SettingsEditor" timestamp="1586714920570">
+    <state x="276" y="31" key="SettingsEditor" timestamp="1587061669858">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state x="276" y="31" key="SettingsEditor/0.31.1280.689@0.31.1280.689" timestamp="1586714920570" />
-    <state x="341" y="200" key="com.intellij.ide.util.TipDialog" timestamp="1586607602210">
+    <state x="276" y="31" key="SettingsEditor/0.31.1280.689@0.31.1280.689" timestamp="1587061669858" />
+    <state x="341" y="200" key="com.intellij.ide.util.TipDialog" timestamp="1586801153395">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state x="341" y="200" key="com.intellij.ide.util.TipDialog/0.31.1280.689@0.31.1280.689" timestamp="1586607602210" />
+    <state x="341" y="200" key="com.intellij.ide.util.TipDialog/0.31.1280.689@0.31.1280.689" timestamp="1586801153395" />
     <state x="290" y="176" key="run.anything.popup" timestamp="1586670660705">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
