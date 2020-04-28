@@ -526,13 +526,12 @@ body {
 .proj-pic {
     box-sizing: border-box;
     margin: 0;
-    border: 1px solid green;
+    display: block;
 }
 
 
 .proj-capture{
     /*border: 1px solid green;*/
-    border: 1px solid green;
     box-sizing: border-box;
     padding: 27px;
     display: flex;
